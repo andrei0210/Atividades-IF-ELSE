@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner (System.in);
+    
+    int primeiroValor=0;
+    int segundoValor=0;
+    
+    
+    
+    System.out.println ("informe o primeiro valor");
+    primeiroValor =sc.nextInt();
+    
+    System.out.println ("informe o segundo valor");
+    segundoValor =sc.nextInt();
+    
+    
+    
+    if(20 > 10){
+        
+        System.out.println("true");
+    } else {
+        
+        System.out.println("false");
+        
+    }
+        soma > 100? "Entrou aqui" : "Nao e maior";
