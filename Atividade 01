@@ -1,0 +1,23 @@
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner (System.in);
+    
+   int idade=0;
+  
+    System.out.println ("Informe a sua Idade: ");
+    idade =sc.nextInt();
+    
+  if( idade >= 18){
+        
+        System.out.println("Vc e Maior de Idade");
+    } else {
+        
+        System.out.println("Vc e Menor de Idade");
+        }
+    
+    
+    
+}
+}
