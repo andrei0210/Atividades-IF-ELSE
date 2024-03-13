@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner (System.in);
+    
+   int numero1=0;
+   int numero2=0;
+  
+    System.out.println ("Informe o Primeiro Numero: ");
+    numero1 =sc.nextInt();
+    
+    System.out.println ("Informe o Segundo Numero: ");
+    numero2 =sc.nextInt();
+    
+  if( numero1>numero2){
+        
+        System.out.println("Esse Numero e Maior que o Segundo");
+    } else if ( numero2>numero1) {
+        
+        System.out.println("Esse Numero e Maior que o Primeiro");
+    } else {
+        
+        System.out.println("Os numeros Sao Iguais");
+        
+    }
+    
+    
+    
+}
+}
