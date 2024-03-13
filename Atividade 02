@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner (System.in);
+    
+   int numero=0;
+  
+    System.out.println ("Informe um Numero: ");
+    numero =sc.nextInt();
+    
+  if( numero % 2 ==0){
+        
+        System.out.println("Esse Numero e PAR");
+    } else {
+        
+        System.out.println("Esse Numero e IMPAR");
+        }
+    
+    
+    
+}
+}
